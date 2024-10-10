@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabini Isabela</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #container1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: space-evenly;
+            
+        }
+        .nosupport{
+            color: red;
+            font-family: monospace;
+        }
+        .support{   
+            width: 100px;
+            height: 20px;
+            background-color: red;
+            border: none;
+            color: white;
+        }
+        .support:hover{
+
+            background-color: darkred;
+
+        }
+
+        .position{
+            font-size: 50px;
+        }
+
+
+        #headings{
+            background-color: red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #head1{
+            color: dark;
+        }
+
+        #head2{
+        margin-top: 1%;
+        color: dark;
+
+
+
+        }
+
+        #bg{
+            width: 100%;
+            height: 300vh;
+            background: linear-gradient(90deg,red,orange,yellow,gold);
+            background-size: 300% 300%;
+            animation: color 12s ease-in-out infinite;
+            display: flex;
+            flex-direction: column;
+            
+            justify-content: space-evenly;
+            
+            
+        }
+
+        @keyframes color {
+
+            0%{
+                background-position: 0 50%;
+            }
+
+            50%{
+                background-position: 100% 50%;
+            }
+            
+            100%{
+                background-position: 0 50%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="headings">
+
+        <h1 id="head1" >MABINI ISABELA</h1>
+        <h2 id="head2">Isabela City Election Survey 2025</h2>
+
+    </div>
+    
+
+
+    <div id="bg">
+
+        
+
+
+
+        <p class="position">Congressman</p><br><br>
+
+        <div id="container1">
+            
+
+
+            <div class="candidatecont" >
+                <img id="candidatepic"src="photo/hanie.png" width="100px" height="100px" > <br>
+                <label class="nosupport">0</label><br>
+                <label>Hanie A. Bud</label><br>
+                <button class="support">Support</button>
+
+
+            </div>
+            
+            <div class="candidatecont">
+                <img src="photo/yusop.png" width="100px" height="100px" > <br>
+                <label class="nosupport">1,200</label><br>
+                <label>Yusop T. Alano</label><br>
+                <button class="support">Support</button>
+
+            </div>
+            
+
+        </div><br>
+        
+        <p class="position">Governor</p><br>
+
+
+        <div id="container1">
+            <div class="candidatecont" >
+                <img id="candidatepic"src="photo/mujiv.png" width="100px" height="100px" > <br>
+                <label class="nosupport">1,200</label><br>
+                <label>Mujiv S. Hataman</label><br>
+                <button class="support">Support</button>
+    
+    
+            </div>
+            
+            <div class="candidatecont">
+                <img src="photo/jay.png" width="100px" height="100px" > <br>
+                <label class="nosupport">1,200</label><br>
+                <label>Jay H. Salliman</label><br>
+                <button class="support">Support</button>
+            </div>
+
+        </div><br>
+
+
+        <p class="position">Vice Governor</p><br>
+
+
+        <div id="container1">
+            <div class="candidatecont" >
+                <img id="candidatepic"src="photo/alzad.png" width="100px" height="100px" > <br>
+                <label class="nosupport">1,200</label><br>
+                <label>Alzad T. Sattar</label><br>
+                <button class="support">Support</button>
+    
+    
+            </div>
+            
+            <div class="candidatecont">
+                <img src="photo/jim.png" width="100px" height="100px" > <br>
+                <label class="nosupport">1,200</label><br>
+                <label>Jim S. Hataman</label><br>
+                <button class="support">Support</button>
+            </div>
+
+        </div><br>
+
+        <p class="position">Provincial district 1 board member</p><br>
+
+        <p class="position">Mayor of Isabela</p><br>
+
+        <div id="container1">
+            <div class="candidatecont" >
+                <img id="candidatepic"src="photo/djalia.png" width="100px" height="100px" > <br>
+                <label class="nosupport">1,200</label><br>
+                <label>Sitti Djalia T. Hataman</label><br>
+                <button class="support">Support</button>
+    
+    
+            </div>
+            
+            <div class="candidatecont">
+                <img src="photo/kifli.png" widt h="100px" height="100px" > <br>
+                <label class="nosupport">1,200</label><br>
+                <label>Kifli H. Salliman</label><br>
+                <button class="support">Support</button>
+            </div>
+
+        </div><br>
+
+
+        <p class="position">Vice Mayor of Isabela</p><br>
+        <p class="position">Councilor of Isabela</p><br>
+
+
+
+
+    </div>
+</body>
+</html> 
